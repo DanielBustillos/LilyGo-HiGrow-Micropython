@@ -1,7 +1,7 @@
 {
-    "SSID": "INFINITUM6980_2.4",
-    "PASSWORD": "E9N6hF3ACG",
-    "blynk_token": "UhTJiK4-WEgFt_RBJ_hMNoR8WuUbyENw",
+    "SSID": "Network_name",
+    "PASSWORD": "Network_Password",
+    "blynk_token": "Blynk_token",
     "debug_state": "True",
     "time_deepsleep_minutes": 1,
     "pin_dht": 16,
