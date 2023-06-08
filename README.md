@@ -1,6 +1,6 @@
 # LilyGO Higrow Sensor - Soil Moisture Sensor MicroPython Implementation
 
-This MicroPython code provides an implementation for using the soil moisture sensor of the [LilyGO Higrow sensor](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow). The code reads various environmental parameters such as temperature, humidity, salinity, fertility, luminosity, and soil moisture. It utilizes the [Blynk platform](https://blynk.cloud) to send the collected sensor data for further analysis and monitoring.
+This MicroPython code fr using [LiLyGO Higrow soil moisture sensor](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow). The code reads various environmental parameters such as temperature, humidity, salinity, fertility, luminosity, and soil moisture. It utilizes the [Blynk platform](https://blynk.cloud) to send the collected sensor data for further analysis and monitoring.
 
 Higrow Sensor
  ![Higrow](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow/blob/master/image/img1.jpg?raw=true)
