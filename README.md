@@ -6,7 +6,7 @@ Higrow Sensor
  ![Higrow](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow/blob/master/image/img1.jpg?raw=true)
  
  Blynk Platform
- ![Blink](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow/blob/master/image/img1.jpg?raw=true](https://github.com/DanielBustillos/LilyGo-HiGrow-Micropython/blob/main/assets/blynk.png?raw=true)
+ ![Blink](https://github.com/DanielBustillos/LilyGo-HiGrow-Micropython/blob/main/assets/blynk.png?raw=true)
  
 **Table of Contents**
 
