@@ -2,10 +2,10 @@
 
 MicroPython code for using [LiLyGO Higrow soil moisture sensor](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow). The code reads various environmental parameters such as temperature, humidity, salinity, luminosity, and soil moisture. It utilizes the [Blynk platform](https://blynk.cloud) to send the collected sensor data for further analysis and monitoring.
 
-Higrow Sensor
+**Higrow Sensor**
  ![Higrow](https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow/blob/master/image/img1.jpg?raw=true)
  
- Blynk Platform
+**Blynk Platform**
  ![Blink](https://github.com/DanielBustillos/LilyGo-HiGrow-Micropython/blob/main/assets/blynk.png?raw=true)
 
 ## Introduction
