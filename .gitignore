@@ -152,3 +152,4 @@ cython_debug/
 #.idea/
 src/config/.DS_Store
 src/.DS_Store
+assets/.DS_Store
