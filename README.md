@@ -40,10 +40,10 @@ The following sensors are implemented and their corresponding data is retrieved:
 2. Copy the provided code and save it as a file on the LilyGO Higrow sensor board.
 3. Update the configuration file **blynk_config** with the appropriate settings for your device. Make sure to replace the following elements with your own configuration:
 
-- "SSID": Your Wi-Fi network name.
-- "PASSWORD": Your Wi-Fi network password.
-- "blynk_token": Your Blynk authentication token.
-- "time_deepsleep_minutes": The time interval for deep sleep mode in minutes.
+- SSID: Your Wi-Fi network name.
+- PASSWORD: Your Wi-Fi network password.
+- blynk_token: Your Blynk authentication token.
+- time_deepsleep_minutes: The time interval for deep sleep mode in minutes.
 
 5. Run the code on the LilyGO Higrow sensor board using MicroPython. 
 The code will read the sensor data from the implemented sensors, including temperature, humidity, salinity, fertility, luminosity, and soil moisture.
