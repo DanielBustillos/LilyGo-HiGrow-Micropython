@@ -36,7 +36,7 @@ The following sensors are implemented and their corresponding data is retrieved:
 
 ## To run this code on your LilyGO Higrow sensor, follow these steps:
 
-1. Install MicroPython on the LilyGO Higrow sensor board. Refer to the official MicroPython documentation for detailed instructions.
+1. Install MicroPython on the LilyGO Higrow sensor board. I prefer using [Thonny IDE](https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/) by its simplicity. It can be done by using [esptool](https://docs.micropython.org/en/latest/esp32/tutorial/intro.html).
 2. Copy the provided code and save it as a file on the LilyGO Higrow sensor board.
 3. Update the configuration file **blynk_config** with the appropriate settings for your device. Make sure to replace the following elements with your own configuration:
 
@@ -46,8 +46,7 @@ The following sensors are implemented and their corresponding data is retrieved:
 - time_deepsleep_minutes: The time interval for deep sleep mode in minutes.
 
 5. Run the code on the LilyGO Higrow sensor board using MicroPython. 
-The code will read the sensor data from the implemented sensors, including temperature, humidity, salinity, fertility, luminosity, and soil moisture.
-The collected data will be sent to the Blynk platform as an example.
+The code will read the sensor data from the implemented sensors, sende the collected data will be sent to the Blynk platform as an example and then deepsleep.
 
 ## Contributing
 
