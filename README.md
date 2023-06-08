@@ -24,14 +24,14 @@ The code provided here enables you to interface with the LilyGO Higrow sensor an
 
 The following sensors are implemented and their corresponding data is retrieved:
 
-| Sensor             | Measurement        |
-| ------------------ | ------------------ |
-| Temperature        | Read in Celsius    |
-| Humidity           | Percentage         |
-| Salinity           | Normalized Value   |
-| Fertility          | Normalized Value   |
-| Luminosity         | Lux                |
-| Soil Moisture      | Normalized Value   |
+| Sensor             | Measurement        | Pin        |
+| ------------------ | ------------------ | -----------|
+| Temperature (DHT11)       | Read in Celsius    | 16        |
+| Humidity (DHT11)           | Percentage         | 16        |
+| Salinity           | Normalized Value   | 34        |
+| Luminosity         | Lux                | SCL: 26, SDA:25        |
+| Soil Moisture      | Normalized Value   | 32        |
+| Battery      | Normalized Value   | 33        |
 
 
 ## To run this code on your LilyGO Higrow sensor, follow these steps:
