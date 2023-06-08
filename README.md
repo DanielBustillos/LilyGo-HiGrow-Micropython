@@ -25,6 +25,8 @@ The following sensors are implemented and their corresponding data is retrieved:
 | Soil Moisture      | Normalized Value   | 32        |
 | Battery      | Normalized Value   | 33        |
 
+*Note:* BME280 sensor is not implemented yet.
+
 
 ## To run this code on your LilyGO Higrow sensor, follow these steps:
 
