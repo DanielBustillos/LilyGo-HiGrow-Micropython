@@ -3,8 +3,8 @@ from main_utils import open_text_file
 print("Reading config files")
 
 # Read config files
-device_config = open_text_file("./device_config.txt", json=True)
-blynk_config = open_text_file("./blynk_config.txt", json=True)
+device_config = open_text_file("./config/device_config.txt", json=True)
+blynk_config = open_text_file("./config/blynk_config.txt", json=True)
 
 # Define device pins
 pin_dht = device_config["pin_dht"]
