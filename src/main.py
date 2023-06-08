@@ -51,7 +51,6 @@ data_dict = {
     'Battery_level': battery_reading,
     'Temperature_air': temp_air_1,
     'Humidity_air': hum_air_1,
-    'Fertility': salt_value,
     'Soil_moisture': soil_moist,
     'light_level': light_measurement,
     'salt_value': salt_value
@@ -61,13 +60,15 @@ print(data_dict)
 
 
 # Sending data to Blynk
-print("Sending data to Blynk\n")
+print("\n Sending data to Blynk")
 
 # Connect to Wi-Fi network
-network_utils.do_connect(SSID=device_config["SSID"], PASSWORD=device_config["PASSWORD"])
+network_utils.do_connect(SSID=device_config["SSID"],
+                         PASSWORD=device_config["PASSWORD"])
 
 # Send data
 for element, value in data_dict.items():
+
     network_utils.get_request(
         device_token=blynk_token,
         pin_name=blynk_config[element],
@@ -78,4 +79,7 @@ for element, value in data_dict.items():
 
 # Deepsleep
 print("Starting Deepsleep")
+
 deepsleep(int(time_deepsleep_minutes * 60 * 1000))  # Convert minutes to ms
+
+
