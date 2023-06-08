@@ -1,0 +1,9 @@
+{
+    "Battery_level": "V4",
+    "Temperature_air": "V1",
+    "Humidity_air": "V2",
+    "Fertility": "V7",
+    "Soil_moisture": "V3",
+    "salt_value": "V6",
+    "light_level": "V5"
+}
