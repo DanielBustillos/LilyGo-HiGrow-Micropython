@@ -7,14 +7,6 @@ Higrow Sensor
  
  Blynk Platform
  ![Blink](https://github.com/DanielBustillos/LilyGo-HiGrow-Micropython/blob/main/assets/blynk.png?raw=true)
- 
-**Table of Contents**
-
-1. Implemented Sensors
-2. Installation
-3. Usage
-4. Contributing
-5. License
 
 ## Introduction
 
@@ -48,6 +40,14 @@ The following sensors are implemented and their corresponding data is retrieved:
 
 5. Run the code on the LilyGO Higrow sensor board using MicroPython. 
 The code will read the sensor data from the implemented sensors, sende the collected data will be sent to the Blynk platform as an example and then deepsleep.
+
+## Code explanation 
+This board requires Pin(4) state to be set in High so other pins can be active and make measurements. I believe this for optimizing power consumption.
+
+    p0 = Pin(4, Pin.OUT) 
+    p0.value(1)  
+    
+   
 
 ## Contributing
 
